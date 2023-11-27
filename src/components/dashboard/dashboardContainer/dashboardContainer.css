@@ -1,0 +1,7 @@
+.dashboardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 20%;
+    height: 100%;
+}

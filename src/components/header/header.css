@@ -1,0 +1,45 @@
+.headerContainer {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.header {
+    display: flex;
+    margin: 0 auto;
+    justify-content: start;
+    width: 85%;
+    padding: 20px;
+}
+
+.displayButton {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    width: fit-content;
+    color: black;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.displayButton:hover {
+    cursor: pointer;
+}
+
+.displayButtonIcon {
+    rotate: 90deg;
+}
+
+.filter {
+    position: absolute;
+    left: 7.5%;
+    top: 90%;
+}

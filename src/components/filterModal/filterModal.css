@@ -1,0 +1,44 @@
+.filterModalContainer {
+    padding: 15px;
+    background: linear-gradient(#F7F7F9, #FAFAFC);
+    width: 230px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.grouping {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ordering {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 5px;
+    padding: 2px 5px;
+}
+
+
+
+
