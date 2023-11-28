@@ -13,3 +13,11 @@
     margin: 0 auto;
     gap: 28px;
 }
+
+
+@media screen and (max-width: 600px) {
+    .mainSection{
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+}
