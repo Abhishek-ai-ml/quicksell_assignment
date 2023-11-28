@@ -35,8 +35,6 @@ function App() {
       console.log(err);
     })
   }, [])
-
-  console.log("Grouping is",grouping);
   return (
     <div className="mainContainer">
       <div><Header setGrouping={setGrouping} setFiltering={setFiltering}/></div>
